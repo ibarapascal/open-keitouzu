@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "日本の送電網 論理トポロジ / Logical topology of Japan's transmission grid"
+type: dataset
+authors:
+  - family-names: "Jing"
+    given-names: "Jiawei"
+    affiliation: "Makuhari Development Corporation"
+repository-code: "https://github.com/ibarapascal/open-keitouzu"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21822356
+    description: "Concept DOI — always resolves to the latest version"
+license: CC-BY-4.0
+version: "2026.08.06"
+date-released: 2026-08-06
+keywords:
+  - power grid
+  - transmission network
+  - Japan
+  - open data
+  - network topology
+abstract: >-
+  Logical topology of Japan's bulk and 154 kV transmission network,
+  structured from the one-line diagrams published by the ten Japanese
+  transmission and distribution utilities. 1,351 nodes and 1,487 edges
+  (active), each assertion carrying its source document and a confidence
+  level, keyed by lifetime-stable UUIDs. The dataset holds no coordinates
+  by design; positions are resolved through a crosswalk of external
+  identifiers. Retired and corrected records are retained rather than
+  deleted. Snapshot of 2026-08; diagram vintages are not uniform across
+  utilities. Not reviewed by hand — the error rate is unmeasured.
