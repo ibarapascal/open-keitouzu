@@ -1,0 +1,14 @@
+source_ref,utility,document,published_date,retrieved_date,format,local_path
+hokkaido-keitozu-hokkaido_kikan,北海道電力ネットワーク,hepco-keitozu-187kv-unknown.pdf,2026年5月29日更新,2026-08-03,vector_pdf,Downloads/keitozu-20260803/hepco-keitozu-187kv-unknown.pdf
+tokyo-keitozu-tokyo_kikan154,東京電力パワーグリッド,tepco-keitozu-kikan275kv-fy2024.pdf + tepco-keitozu-154kv-fy2024.pdf,2024年7月29日15時の実績潮流（凡例ページ原文：「実績系統図」は2024年7月29日15時の実績潮流になります）,2026-08-03,vector_pdf,Downloads/keitozu-20260803/tepco-keitozu-kikan275kv-fy2024.pdf + tepco-keitozu-154kv-fy2024.pdf
+hokuriku-keitozu-hokuriku_kikan154,北陸電力送配電,rikuden-keitozu-jisseki-kikan275kVijou-unknown.pdf + rikuden-keitozu-jisseki-154kV-unknown.pdf,2025年4月1日時点,2026-08-03,vector_pdf,Downloads/keitozu-20260803/rikuden-keitozu-jisseki-kikan275kVijou-unknown.pdf + rikuden-keitozu-jisseki-154kV-unknown.pdf
+chubu-keitozu-chubu_kikan154,中部電力パワーグリッド,chuden-keitozu-tougou-unknown.pdf (主) + chuden-keitozu-kikan-202504.pdf/local p1 (交叉),unknown（予想潮流断面版无日期标注；交叉验证源为2025年度）,2026-08-03,vector_pdf,Downloads/keitozu-20260803/chuden-keitozu-tougou-unknown.pdf (主) + chuden-keitozu-kikan-202504.pdf/local p1 (交叉)
+shikoku-keitozu-shikoku_kikan,四国電力送配電,Downloads\keitozu-20260803\shikoku-keitozu-kikan-202608.pdf,2026年8月1日更新,2026-08-03,vector_pdf,Downloads/keitozu-20260803/shikoku-keitozu-kikan-202608.pdf
+chugoku-keitozu-chugoku_kikan,中国電力ネットワーク,chugoku-keitozu-kikan-202504.pdf,2025年度（系統構成〔2025年度〕）,2026-08-03,vector_pdf,Downloads/keitozu-20260803/chugoku-keitozu-kikan-202504.pdf
+okinawa-keitozu-okinawa_all,沖縄電力,okinawa-keitozu-202607.pdf,系統図（2026年7月）,2026-08-03,vector_pdf,Downloads/keitozu-20260803/okinawa-keitozu-202607.pdf
+kyushu-keitozu-kyushu_kikan,九州電力送配電,kyushu-regional 31 maps (260730),260730（文件名日期戳）,2026-08-03,vector_pdf,Downloads/keitozu-20260803/kyushu-regional 31 maps (260730)
+kansai-keitozu-kansai_kikan154,関西電力送配電,kansai-keitozu-154kVijou-202404.pdf,2025年04月01日時点（図右下に明記。ファイル名の202404は年度表記で、図題は「2024年度 地点別需要・系統潮流実績他」）,2026-08-03,vector_pdf,Downloads/keitozu-20260803/kansai-keitozu-154kVijou-202404.pdf
+tohoku-keitozu-tohoku_kikan,東北電力ネットワーク,tohoku-keitozu-kikan-202402.pdf,2024年度実績（図題：系統構成（500･275･154kV系統）（2024年度実績））,2026-08-03,vector_pdf,Downloads/keitozu-20260803/tohoku-keitozu-kikan-202402.pdf
+interconnect-pass-20260803,缝合pass(两轮独立复核),analysis/interconnect_plan.csv + interconnect_final.csv,2026-08-03,2026-08-03,derived,analysis/
+okiden-akiyoryo-202606,沖縄電力,沖縄電力管内(本島)における空容量マッピングならびに運用容量等一覧表(132kV線路、66kV線路、変電所) con_res_map01_01〜03.csv,2026年6月末時点（ページ表記 2026年7月21日 更新）,2026-08-05,csv,okiden/akiyoryo_map/
+occto-chinai-kikan-jisseki,電力広域的運営推進機関（OCCTO）,系統情報サービス 地内基幹送電線潮流実績（公表）,30分粒度・2023-01 以降,2026-08-05,csv,occto/chinai_kikan_jisseki/
