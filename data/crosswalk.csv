@@ -26,14 +26,14 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 0b0f2890-9f1a-41ed-9dea-a92442bc65f1,substation,ajg,kyushu_sub_455,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 0c2d856b-8359-412c-bbab-a0cdf49a3d5b,substation,ajg,hokuriku_sub_8,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 0d569b24-6d54-434a-9d8e-945375c12f09,substation,ajg,kyushu_sub_636,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
-0eb051cb-1239-42c9-b614-94c8760f55de,substation,ajg,tokyo_sub_89@66,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+0eb051cb-1239-42c9-b614-94c8760f55de,substation,ajg,tokyo_sub_89@u,ajg-v1.6.0,name_t1_region,,inferred,2026-08-14,AJG audit 2026-08-14; same site; source 275kV matches AJG untyped 275kV layer; previous=tokyo_sub_89@66
 0ebbb1e4-ecc7-461c-aee9-a356dda7219c,substation,ajg,tohoku_sub_707@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 4ac2e9f7-af61-402a-8b9c-3eaed56d0538,substation,ajg,tohoku_sub_566@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 0f0052ac-8e22-4470-9929-7e551e81e9a6,substation,ajg,kyushu_sub_459@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 0f2648c6-35c0-46ed-9d4f-3fe792ea8b59,substation,ajg,hokkaido_sub_8@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 0f38b826-71bc-4d1d-9593-809f66f9cdb3,substation,ajg,shikoku_sub_53@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 0fcd3144-351d-47f1-b6fe-3909ab4c3d98,substation,ajg,tokyo_sub_1092@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-113050db-f01f-4521-9f3a-fa9d25bdd33c,substation,ajg,kyushu_sub_213,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+113050db-f01f-4521-9f3a-fa9d25bdd33c,substation,ajg,kyushu_sub_214@220,ajg-v1.6.0,name_t1_region,,inferred,2026-08-14,AJG audit 2026-08-14; OSM way/304390660 confirms 到津 220/66kV; selected same-site 220kV layer; previous=kyushu_sub_213
 11c4e95b-fcb6-4033-b0bd-d926addb50a3,substation,ajg,chubu_sub_865@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 11f2cf54-c52f-466a-aac4-5d6c85b9152f,substation,ajg,tokyo_sub_593,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 12634b78-5593-4be0-a70a-76096bc5605e,substation,ajg,tokyo_sub_135@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -41,13 +41,13 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 12d4037d-527e-49c3-a6fa-18e079887a0a,substation,ajg,hokkaido_sub_68@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 13019ca3-4943-4001-8a04-55d60795dc14,substation,ajg,kyushu_sub_58@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 13163b5b-5331-4dd7-b0ef-f5f812b10184,substation,ajg,chubu_sub_929,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-13cfd981-c073-4bcf-a84f-2c792108b6fe,substation,ajg,tohoku_sub_279@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+13cfd981-c073-4bcf-a84f-2c792108b6fe,substation,ajg,tohoku_sub_279@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tohoku_sub_279@275
 13e23403-51c7-49a9-a21c-e3775d366e5f,substation,ajg,chubu_sub_66@154,ajg-v1.6.0,name_t3_national,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-150fe35a-6c35-4fbb-96f0-7bad74e6467d,substation,ajg,tokyo_sub_1380@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+150fe35a-6c35-4fbb-96f0-7bad74e6467d,substation,ajg,tokyo_sub_1380@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_1380@275
 1635ec54-b8fd-4e7a-b86e-d32bf75ef461,substation,ajg,chubu_sub_118@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 16c5726b-837a-4050-8281-c68d851b6fe6,substation,ajg,kyushu_sub_80@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 172f6d83-3440-4345-a19b-30c095c98d71,substation,ajg,tokyo_sub_1266@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-17c870f0-d9c9-41f9-ab62-7be36b8499b1,substation,ajg,tokyo_sub_1023@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+17c870f0-d9c9-41f9-ab62-7be36b8499b1,substation,ajg,tokyo_sub_1023@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_1023@500
 1837cccc-b2d9-437e-9343-0388adcd3f54,substation,ajg,tokyo_sub_572,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 1874de81-9355-43de-9846-5f65a7f18ba4,substation,ajg,tohoku_sub_560@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 18c98bb2-5057-4bfd-a906-4d5a9aa79002,substation,ajg,tokyo_sub_897@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -62,7 +62,6 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 1b29a990-c2b9-4ceb-a944-9a7d49f864b0,substation,ajg,tohoku_sub_804@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 1bc6eac9-9147-4231-b687-9e09fe514e88,substation,ajg,chubu_sub_235@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 1c1313c6-dbe2-443d-a3bf-2b1c13ef384c,substation,ajg,tohoku_sub_458@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-1c2377c2-c3e3-40c0-910b-e94f6b4d89b1,substation,ajg,chugoku_sub_141@110,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=110
 1c26908f-cda1-47d4-b9e9-022c4e2f6512,substation,ajg,chubu_sub_261@154,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 1c96b886-5b5a-4e6e-9b52-a2760832012c,substation,ajg,chubu_sub_250@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 1cb8946b-0127-44f8-96dd-feef5a58af5a,substation,ajg,tohoku_sub_559@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -77,20 +76,20 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 22f2e320-18e6-447e-9423-f9047c95ff44,substation,ajg,shikoku_sub_179@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 232a9642-b02e-4507-b7ae-2779c34720f3,substation,ajg,tokyo_sub_571,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 23b45592-7716-4263-bcf3-99c13d9290d2,substation,ajg,tohoku_sub_150,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-23c0b48a-b06f-436b-9803-239e475ab124,substation,ajg,hokuriku_sub_66@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+23c0b48a-b06f-436b-9803-239e475ab124,substation,ajg,hokuriku_sub_66@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=hokuriku_sub_66@275
 249acbfe-b23b-4d4e-8a1d-a1076756c23d,substation,ajg,tokyo_sub_592,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-24a69745-c7d4-41f5-92cc-732460bced93,substation,ajg,tokyo_sub_77@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+24a69745-c7d4-41f5-92cc-732460bced93,substation,ajg,tokyo_sub_77@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_77@275
 256d0c31-ba5b-41c6-b138-35f0e1211aab,substation,ajg,kyushu_sub_394,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 2634b1be-c3ad-470e-a1c5-e3f02e93c78c,substation,ajg,tokyo_sub_92@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 263fc187-c584-47b0-8cf1-aac09270d46f,substation,ajg,tokyo_sub_448@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-267b8ea3-25da-4df9-959a-3f78a24241f9,substation,ajg,tokyo_sub_631,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
+267b8ea3-25da-4df9-959a-3f78a24241f9,substation,ajg,tokyo_sub_784,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact power-operator site; excludes nearby railway site; previous=tokyo_sub_631
 27a183ff-563d-48cb-a153-a66600708e75,substation,ajg,hokuriku_sub_106@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 27f314e0-a83f-4666-bcfe-2abb18f7c9cc,substation,ajg,tokyo_sub_1378@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 28970f62-a7b3-4453-aa4a-41ae86e2da9f,substation,ajg,tokyo_sub_1443,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 28ec472c-5d5b-4b72-91bb-d9b4a397bb84,substation,ajg,hokkaido_sub_153@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-2a37b228-4706-4553-be64-cbfbf98245b2,substation,ajg,tokyo_sub_749,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+2a37b228-4706-4553-be64-cbfbf98245b2,substation,ajg,tokyo_sub_750,ajg-v1.6.0,name_t1_region,,inferred,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 275kV has no AJG 275kV layer at this site; previous=tokyo_sub_749
 2af3bff3-2fd1-4b89-8bff-fb7320d7da83,substation,ajg,tokyo_sub_641,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-2b78ab1b-ed1b-498b-b174-ee48417a2274,substation,ajg,tokyo_sub_785@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+2b78ab1b-ed1b-498b-b174-ee48417a2274,substation,ajg,tokyo_sub_785@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_785@275
 2bf0bf5b-badc-4ae9-9b5b-61048efdda8a,substation,ajg,tokyo_sub_374,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 2c23146d-0895-4c02-98be-efe9bac0b496,substation,ajg,hokkaido_sub_166@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 2c84d328-e28a-44c7-a407-85f98b714ad2,substation,ajg,tohoku_sub_29@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -103,19 +102,19 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 2d8159fc-c76f-4f6d-9b6f-584f0796f682,substation,ajg,tokyo_sub_912,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 2df430c6-c40a-48d7-9e5e-7756be6e2d22,substation,ajg,tohoku_sub_398@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 2dfe59c5-35e9-4450-bad2-9a999a97f400,substation,ajg,hokkaido_sub_227@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-2eb4a630-5d36-4fa6-a36c-b514d6601622,substation,ajg,tokyo_sub_1363@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
+2eb4a630-5d36-4fa6-a36c-b514d6601622,substation,ajg,tokyo_sub_1717,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact power-operator site; excludes nearby railway site; previous=tokyo_sub_1363@154
 2f3b0624-126c-49db-b67c-b86301805fab,substation,ajg,tokyo_sub_1004@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 2f4c283d-bd13-43e8-be85-d267ca671969,substation,ajg,kyushu_sub_57,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=0
-2f53b0af-75a4-48f2-8126-64956bb99c3e,substation,ajg,tohoku_sub_700@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
+2f53b0af-75a4-48f2-8126-64956bb99c3e,substation,ajg,tohoku_sub_701@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 275kV layer; previous=tohoku_sub_700@154
 2f9fb644-da7f-4443-bde9-5223de1664f3,substation,ajg,chubu_sub_199@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-2fd2d155-394f-435b-9dbe-d76ea0be66a0,substation,ajg,hokkaido_sub_159@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+2fd2d155-394f-435b-9dbe-d76ea0be66a0,substation,ajg,hokkaido_sub_159@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 187kV layer; previous=hokkaido_sub_159@275
 2fe84292-e9ee-46be-9c59-0a52327595fb,substation,ajg,tokyo_sub_392,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 2fe87164-8eda-4b48-b0d9-8bb26fac957b,substation,ajg,tohoku_sub_11@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 3061ba6a-ef12-4263-a93b-f0f3a936e3e3,substation,ajg,tokyo_sub_158,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 3149bc32-66d7-4363-a3cd-708a231f4710,substation,ajg,kyushu_sub_112@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 3160e5d7-90c6-4fed-8967-33e384e7d53d,substation,ajg,tohoku_sub_167@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-319c4970-420b-484e-a186-d65bc309eeb6,substation,ajg,tokyo_sub_999@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-328293f2-7c1b-447d-9d9d-5678971a4d6e,substation,ajg,kyushu_sub_54,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
+319c4970-420b-484e-a186-d65bc309eeb6,substation,ajg,tokyo_sub_1000@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 154kV layer; previous=tokyo_sub_999@500
+328293f2-7c1b-447d-9d9d-5678971a4d6e,substation,ajg,kyushu_sub_108@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact power-operator site; excludes nearby railway site; previous=kyushu_sub_54
 32d13d32-f4e1-4182-9b47-23d2c2c34920,substation,ajg,tokyo_sub_73@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 33126264-2be7-4495-a3a1-393a47c17f50,substation,ajg,hokuriku_sub_9,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 33c8800b-2ce7-4ca7-b552-fbce758c89af,substation,ajg,tokyo_sub_557@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
@@ -124,7 +123,7 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 3495cd61-8a86-4f20-86cc-a26c07364562,substation,ajg,tokyo_sub_902@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 358c6eb7-969e-4491-a91f-1fa34da71a9c,substation,ajg,tohoku_sub_590@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 3591a1fb-70e4-4daf-8433-d5b37fe8a920,substation,ajg,kyushu_sub_87@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-35d3bd47-2a3e-4032-b6ef-e0c72c4d3279,substation,ajg,chubu_sub_538@77,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=77
+35d3bd47-2a3e-4032-b6ef-e0c72c4d3279,substation,ajg,chubu_sub_647@275,ajg-v1.6.0,name_t1_region,,inferred,2026-08-14,AJG audit 2026-08-14; OSM way/618344836 exact 鈴鹿開閉所 275kV; nearest AJG 275kV site 関町沓掛; previous=chubu_sub_538@77
 36942346-231f-473b-b06e-c7742aaab35e,substation,ajg,tokyo_sub_297@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 36ace863-2e10-44fd-bab4-abefe75e0b50,substation,ajg,tokyo_sub_1067,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 37971305-7548-456d-a595-010a454f6e3d,substation,ajg,chubu_sub_128,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
@@ -138,30 +137,28 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 3bf24977-0ef8-4c31-b029-36c02d8d15c4,substation,ajg,tokyo_sub_86,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 3ccfd08b-3658-4033-9039-eec98bc458fc,substation,ajg,tokyo_sub_548@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 3d54a2e0-84e6-409f-addc-a254bd6b6aac,substation,ajg,hokkaido_sub_97@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-3dcb8e61-c424-4dc0-a82b-10f8be3b6f5e,substation,ajg,kansai_sub_212,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=77
 3e2d6a42-21c3-4ea7-b1bf-d45301b1d606,substation,ajg,tokyo_sub_755@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 3e31e1c5-3935-4421-882a-ebb7835cdec8,substation,ajg,tokyo_sub_574@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 3ecda95f-56fa-45c9-a5b1-401d2e3c249b,substation,ajg,tokyo_sub_955,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 3ede803f-5746-4f89-98d6-a9bb3a4b0e6c,substation,ajg,tokyo_sub_717,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 406bb506-948c-4368-8c7f-a08f4ef79331,substation,ajg,tokyo_sub_103@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-407d3f9d-9a70-4e5d-9920-243bf3956c81,substation,ajg,kansai_sub_87,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+407d3f9d-9a70-4e5d-9920-243bf3956c81,substation,ajg,shikoku_sub_122,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same physical converter; source-region AJG id; previous=kansai_sub_87
 40d530e1-4337-4e21-97cb-63bffa798fae,substation,ajg,kyushu_sub_258@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
-413d74af-14eb-4907-aceb-035a9a73e599,substation,ajg,chubu_sub_46,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=77
-41fcda93-e91f-4f82-a106-6ec39a5632bb,substation,ajg,shikoku_sub_183@500,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+413d74af-14eb-4907-aceb-035a9a73e599,substation,ajg,chubu_sub_231@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 275kV layer; previous=chubu_sub_46
+41fcda93-e91f-4f82-a106-6ec39a5632bb,substation,ajg,shikoku_sub_183@187,ajg-v1.6.0,name_t3_region,,inferred,2026-08-14,AJG audit 2026-08-14; same site; source 187kV layer; previous=shikoku_sub_183@500
 4249e180-5f96-4230-a891-ffcec4f6970e,substation,ajg,kyushu_sub_88@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 428a1b46-73e6-4c87-9712-30331229dab8,substation,ajg,hokkaido_sub_244@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-42f68413-5464-4bcd-815a-7465d4c31839,substation,ajg,tokyo_sub_1254,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 42fcae4c-8c5e-4c33-951e-1e00a0de46f2,substation,ajg,tohoku_sub_59@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 4364d454-f36e-45b6-a58a-65e02e05459d,substation,ajg,tokyo_sub_425,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 438d527d-b332-430a-bb05-68c26682cdb9,substation,ajg,hokuriku_sub_52@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 43a7a281-381a-4c76-a8e3-ff17f7f7681c,substation,ajg,tokyo_sub_20@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 44618726-8860-423d-8214-f4c2eb353d49,substation,ajg,tohoku_sub_434@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-44b9125f-7039-4c77-b42a-b1e945ff43c5,substation,ajg,kyushu_sub_140,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+44b9125f-7039-4c77-b42a-b1e945ff43c5,substation,ajg,kyushu_sub_521@220,ajg-v1.6.0,name_t1_region,,inferred,2026-08-14,AJG audit 2026-08-14; same-region exact name plus source 220kV layer; previous=kyushu_sub_140
 44f83efb-1bbc-4a41-aad8-8e35e4aa3b03,substation,ajg,kyushu_sub_65@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 45842840-67d3-417d-8291-c9a64c0ec4c4,substation,ajg,kyushu_sub_23@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 4585ccaa-8692-4677-9a37-deb961372666,substation,ajg,chubu_sub_449,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 465b98e6-1d1d-491a-948e-77d30f5dc51e,substation,ajg,tokyo_sub_116@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-46cdfbaa-7479-486f-992e-a1b3db15c012,substation,ajg,tokyo_sub_95,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+46cdfbaa-7479-486f-992e-a1b3db15c012,substation,ajg,tokyo_sub_152@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 275kV layer; previous=tokyo_sub_95
 46ed81a3-adcb-42ea-be90-2a64df00f949,substation,ajg,hokuriku_sub_42@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 4729dba8-54ae-4a0f-83c2-7bf2f78b6382,substation,ajg,tokyo_sub_580@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 474626ea-4038-435b-80d7-4970fe065f92,substation,ajg,tokyo_sub_487,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -173,7 +170,7 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 4991b6bf-b93c-4e68-8fb7-3ef7e69d022c,substation,ajg,chubu_sub_248@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 4b1af2df-65ec-4053-9f82-4486a80e5008,substation,ajg,tokyo_sub_1393,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 4b240e49-50e8-47f1-829e-f0383be26552,substation,ajg,tohoku_sub_450@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-4cdb66a8-dcec-4f8e-b4cb-6fd0ecda6283,substation,ajg,tokyo_sub_1046@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+4cdb66a8-dcec-4f8e-b4cb-6fd0ecda6283,substation,ajg,tokyo_sub_1046@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 275kV layer; previous=tokyo_sub_1046@500
 4d0f2279-8cf1-489e-ab2c-8f03071440cf,substation,ajg,chubu_sub_258,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 4d18a6e5-dab3-4407-ae78-674b792add0e,substation,ajg,chubu_sub_299,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 4d4b5195-5b77-4b31-be32-6a9d05466a75,substation,ajg,tohoku_sub_184@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -181,7 +178,7 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 4f7ba6da-76cf-4328-ac03-56223dcc7963,substation,ajg,kyushu_sub_86@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 4ffb73ca-5938-41d3-a4f7-620c3217eb0a,substation,ajg,tokyo_sub_1037@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 500740b5-e017-4f25-afb7-65a5f8f45824,substation,ajg,tohoku_sub_127,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
-5199e2e9-784e-4fca-ae59-e057de399297,substation,ajg,tokyo_sub_864,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+5199e2e9-784e-4fca-ae59-e057de399297,substation,ajg,chubu_sub_846@154,ajg-v1.6.0,topology,,inferred,2026-08-14,AJG audit 2026-08-14; unique 154kV site whose neighbors match 大高/東海/昭和町; previous=tokyo_sub_864
 52142173-95c1-4413-9694-3ec24e9b645b,substation,ajg,chubu_sub_91@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 52645027-038b-47bb-9c4e-48bd4f141aeb,substation,ajg,tokyo_sub_48@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 531e0c00-3332-44f9-818d-2391a18726df,substation,ajg,hokkaido_sub_30@154,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -191,12 +188,12 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 54e4793c-ec18-4255-810d-4d71c75f1a1a,substation,ajg,tohoku_sub_269@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 55580219-56bd-449b-9f20-c01ed0e215b0,substation,ajg,hokkaido_sub_197@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 556b91ea-2763-4e6b-b8dd-94660c2c3309,substation,ajg,chubu_sub_209@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-567a4dc2-07da-4ca0-86d8-766347423611,substation,ajg,kansai_sub_535@154,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
+567a4dc2-07da-4ca0-86d8-766347423611,substation,ajg,kyushu_sub_163@220,ajg-v1.6.0,topology,,inferred,2026-08-14,"AJG audit 2026-08-14; 速見/速水 variant, source 220kV layer, and 豊前 corridor; previous=kansai_sub_535@154"
 57076582-4d32-4ffd-9555-02599469ae24,substation,ajg,chubu_sub_316@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 57af7fbe-b3c0-41a1-9596-92935cb61451,substation,ajg,tohoku_sub_382,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 57bc3ade-12b5-4852-831e-a716e06adbe4,substation,ajg,tokyo_sub_630@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 59625a08-492c-4cd4-bbcd-88fb89043604,substation,ajg,tokyo_sub_677,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-596a9e19-4b21-4b8a-9d08-54726e220a45,substation,ajg,tokyo_sub_353,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+596a9e19-4b21-4b8a-9d08-54726e220a45,substation,ajg,tokyo_sub_1119@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 154kV layer; previous=tokyo_sub_353
 598e6cef-7b50-4e03-9859-f4ff72216cb6,substation,ajg,hokkaido_sub_389@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 5a7fe88f-45e1-47f1-966a-0c61f43f7ca7,substation,ajg,tokyo_sub_118,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 5add5c1c-ed64-4b3f-bfc7-db674de4d0db,substation,ajg,tohoku_sub_513,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -209,25 +206,25 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 5edbd1f1-a7f0-4590-93e7-f51cddfc5b9c,substation,ajg,shikoku_sub_82@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 5f79fc2c-5e1b-460b-9545-34fb2f5edc20,substation,ajg,tokyo_sub_1429,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 601debc7-f9fb-4d13-aa00-d895ac2be49a,substation,ajg,chubu_sub_266@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-606a2ad9-3204-4300-b58a-3b99228744e4,substation,ajg,chubu_sub_541@77,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=77
+606a2ad9-3204-4300-b58a-3b99228744e4,substation,ajg,chubu_sub_825@154,ajg-v1.6.0,name_t3_region,,inferred,2026-08-14,AJG audit 2026-08-14; same-region 154kV candidate; raw name variant 飯田市; previous=chubu_sub_541@77
 60852c42-dae4-4561-afc0-64865347bb3c,substation,ajg,tokyo_sub_146@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 6117d971-0013-4f12-a27b-e4c27cf1c95d,substation,ajg,tokyo_sub_823,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 613e0a81-447c-4b56-bb92-1e7583c61388,substation,ajg,tokyo_sub_268,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 61788b7a-0414-4fbc-8767-88edb025d638,substation,ajg,tokyo_sub_1365@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 63ed8947-6595-4bbf-b930-ab96beeec860,substation,ajg,tokyo_sub_223@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 63fa0537-64ae-47fd-a8a0-657008a7d706,substation,ajg,tokyo_sub_564@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-63fb496e-9142-4b58-80ee-bed467464dc8,substation,ajg,tokyo_sub_943@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+63fb496e-9142-4b58-80ee-bed467464dc8,substation,ajg,tokyo_sub_943@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_943@275
 63ff9e5b-4a85-4dc6-9545-d4021017f82b,substation,ajg,tokyo_sub_156@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-641c895f-fdc4-4393-bd17-b1e33f5e04ad,substation,ajg,kyushu_sub_317,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+641c895f-fdc4-4393-bd17-b1e33f5e04ad,substation,ajg,tohoku_sub_360@154,ajg-v1.6.0,topology,,inferred,2026-08-14,AJG audit 2026-08-14; same-region 154kV exact-name variant plus neighbor context; previous=kyushu_sub_317
 6442e05d-05d3-497e-8471-6fc8f17c5261,substation,ajg,tokyo_sub_1369@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 64afdd3f-36a8-439d-8bb4-05cdf7c297ac,substation,ajg,tokyo_sub_667,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-64b5feb5-0c83-428a-8553-a2a272690f4d,substation,ajg,tohoku_sub_152@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+64b5feb5-0c83-428a-8553-a2a272690f4d,substation,ajg,tohoku_sub_152@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tohoku_sub_152@500
 64fb3fe6-e618-400e-88c4-41889c195a28,substation,ajg,tokyo_sub_83@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 65c305a5-6b87-4dab-80f8-09175e7e8794,substation,ajg,kyushu_sub_635@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 662a3fb8-5a61-4daa-9c6f-80f7436ab433,substation,ajg,tokyo_sub_137@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-66dc651d-c958-4ace-b340-bdf797c74e8b,substation,ajg,chubu_sub_93@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+66dc651d-c958-4ace-b340-bdf797c74e8b,substation,ajg,chubu_sub_93@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 154kV layer; previous=chubu_sub_93@275
 66fba741-8f85-43d5-b1cf-c5ce38bc8d8d,substation,ajg,tokyo_sub_948@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-6759b8f3-6998-4cf0-90cc-c2ab7d8caaf3,substation,ajg,chubu_sub_816,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=77
+6759b8f3-6998-4cf0-90cc-c2ab7d8caaf3,substation,ajg,chubu_sub_648,ajg-v1.6.0,name_t3_region,,inferred,2026-08-14,AJG audit 2026-08-14; same-region 275kV candidate for source 亀山; raw name variant 亀山市; previous=chubu_sub_816
 67cc5323-f970-4654-a2a0-72d4f169da51,substation,ajg,tokyo_sub_1680,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 67ede344-5dde-49cd-baea-038436068d52,substation,ajg,tokyo_sub_1280,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 68d536fc-a02f-4062-8fab-0d618902fb12,substation,ajg,shikoku_sub_33@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
@@ -249,8 +246,8 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 73c76b22-f4fd-40ad-b9a4-3f4df9810569,substation,ajg,tohoku_sub_105@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 7431187a-865a-4c7d-bb3b-dc824bc810d9,substation,ajg,tokyo_sub_67,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 7487d56b-cf27-4568-8347-6e31c804ffd8,substation,ajg,tohoku_sub_831@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-7497e5bb-0dc4-4d11-af30-100212245d2f,substation,ajg,tohoku_sub_188@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-76cd5518-fd7e-46d1-81cd-720ccb76e85c,substation,ajg,tokyo_sub_489,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+7497e5bb-0dc4-4d11-af30-100212245d2f,substation,ajg,tohoku_sub_188@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tohoku_sub_188@275
+76cd5518-fd7e-46d1-81cd-720ccb76e85c,substation,ajg,tokyo_sub_1391@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 154kV layer; previous=tokyo_sub_489
 77a85ca3-c2f8-4567-8dd8-d04c3c11e09d,substation,ajg,hokuriku_sub_61@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 79098c9a-10e2-4a7b-8dc8-7aa9a439be72,substation,ajg,hokkaido_sub_382@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 79286ab8-a72f-49b0-97da-c2a337087c0e,substation,ajg,chubu_sub_488,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=77
@@ -262,27 +259,27 @@ uuid,entity_type,target_system,target_id,target_version,match_method,verified_by
 7b4d7479-b5f9-4213-aefb-5c6b0c94e0da,substation,ajg,tohoku_sub_465@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 7c2df56e-761b-4b9c-9017-27cef35d693d,substation,ajg,hokkaido_sub_105,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 7cdfbd99-a29b-42a2-822b-cbee06d82644,substation,ajg,tokyo_sub_1066@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-7d541717-062c-48fe-8b0f-6e31e1624899,substation,ajg,tokyo_sub_1397@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+7d541717-062c-48fe-8b0f-6e31e1624899,substation,ajg,tokyo_sub_1398,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact power-operator site; excludes nearby railway site; previous=tokyo_sub_1397@500
 7e475ff1-4b5b-45d2-8957-b1a3a0e96ec4,substation,ajg,tokyo_sub_163@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 7e4bd3e2-b314-47d1-b6df-47f47aa5459e,substation,ajg,tokyo_sub_1594@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 7e58d0d7-a2b0-46b7-9779-b67f9bd386f4,substation,ajg,chubu_sub_106@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 7eebb612-4fc5-4099-950f-3fae4e31ce97,substation,ajg,tokyo_sub_1052@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 80012152-88d3-4dd4-9ca1-21cd2c1a4819,substation,ajg,tokyo_sub_109@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-803615f6-24eb-4a4c-9436-4c0837b75637,substation,ajg,tokyo_sub_46@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+803615f6-24eb-4a4c-9436-4c0837b75637,substation,ajg,tokyo_sub_46@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_46@275
 803c9702-ca61-4aa1-b506-0ede56506940,substation,ajg,tokyo_sub_302,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 80d54fb6-2d71-4f5a-b4f1-f8a1a732c7b0,substation,ajg,tokyo_sub_1379@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-80e66b42-9606-4b4d-bdea-86d736387d72,substation,ajg,chubu_sub_144@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+80e66b42-9606-4b4d-bdea-86d736387d72,substation,ajg,chubu_sub_144@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=chubu_sub_144@275
 81553dea-ac38-4f3d-9599-515d36f1c8bc,substation,ajg,chugoku_sub_281@187,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 8192bf78-81f9-4035-b2d8-7fba9dbeba44,substation,ajg,tokyo_sub_1038@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 8240220d-c12d-4cd9-9f41-73a2d5d2f79b,substation,ajg,kyushu_sub_104@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
-82cc356e-344b-4a2a-af4e-1b281231fa07,substation,ajg,kansai_sub_122,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=0
+82cc356e-344b-4a2a-af4e-1b281231fa07,substation,ajg,chubu_sub_618,ajg-v1.6.0,topology,,inferred,2026-08-14,AJG audit 2026-08-14; unique candidate sharing the 北岐阜/西濃 corridor; previous=kansai_sub_122
 830d0316-b5dd-41c0-8f5b-f48a2269a450,substation,ajg,tokyo_sub_1189@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 830f6c03-2327-4ac9-b3ae-abd6ef1727d8,substation,ajg,tokyo_sub_1008@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 83d6b45c-ed18-406c-83a1-81b1b2f88274,substation,ajg,tokyo_sub_998@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 84879905-cbe9-4d5a-95ca-5ea1fd7fab21,substation,ajg,tokyo_sub_906,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 8580f6bc-4ff5-44b3-b55e-1a71c524faef,substation,ajg,tohoku_sub_153@500,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 8649d541-99fc-4040-9201-fc1d86f54c4c,substation,ajg,tokyo_sub_672@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-8652a992-9288-4fa5-bece-f604ad9f84f1,substation,ajg,tokyo_sub_1019@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+8652a992-9288-4fa5-bece-f604ad9f84f1,substation,ajg,tokyo_sub_1019@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 275kV layer; previous=tokyo_sub_1019@500
 8665cd7e-56e3-450f-a590-af45fed09ca8,substation,ajg,tokyo_sub_1385,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 87c744d6-de73-4200-83fe-b552c4689224,substation,ajg,tokyo_sub_80@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 88ad5d90-db7b-46bc-82ae-18e6d899f85c,substation,ajg,chubu_sub_221@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -294,17 +291,17 @@ e8bf97be-ba03-48ac-83fc-70575f4eb402,substation,ajg,kyushu_sub_40@220,ajg-v1.6.0
 8afda5fd-3196-4011-bc0c-85c636aa1985,substation,ajg,chubu_sub_87,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 8b5a56d6-6436-431f-b367-7f3f4297cd91,substation,ajg,tokyo_sub_1364@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 8b645c7c-660b-4fd5-929f-40ccf153c50b,substation,ajg,kyushu_sub_17@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
-8ba3ef2c-2b9f-4957-9b69-a84b4a03184a,substation,ajg,tokyo_sub_1621@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+8ba3ef2c-2b9f-4957-9b69-a84b4a03184a,substation,ajg,tokyo_sub_1621@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_1621@500
 8bd0a821-a12e-4a54-a5bb-9824288b3f84,substation,ajg,tokyo_sub_645,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 8c6b44f2-975d-472e-9c1b-75a38b581450,substation,ajg,hokkaido_sub_156@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 8c71b736-2f41-4b75-af31-d7b23e4710af,substation,ajg,tokyo_sub_818,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 8e26718f-cd3d-4615-a90a-16fb1cd5786f,substation,ajg,tokyo_sub_974,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 8e2ae6a7-8a21-4529-a422-99c637806d13,substation,ajg,tohoku_sub_532,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 8e8a726e-5935-4f68-abac-86a00772b37f,substation,ajg,chubu_sub_127@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-8e8aa032-bee5-423e-8109-ff051a1a3919,substation,ajg,tokyo_sub_157@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+8e8aa032-bee5-423e-8109-ff051a1a3919,substation,ajg,tokyo_sub_157@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_157@275
 8f0bc8dc-ad93-440c-9117-204d311bb3fe,substation,ajg,tokyo_sub_1014@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 8f9f8959-f033-4a36-9cb4-447e74a98cf0,substation,ajg,tohoku_sub_14@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-9033371b-a953-4609-b620-dffd88a0d9cd,substation,ajg,tohoku_sub_51@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+9033371b-a953-4609-b620-dffd88a0d9cd,substation,ajg,tohoku_sub_51@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 275kV layer; previous=tohoku_sub_51@500
 9049efef-9431-4f94-958a-0b52f96d4872,substation,ajg,tokyo_sub_597,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 90a1e248-4e5a-4553-9341-85ed03658910,substation,ajg,tokyo_sub_21@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 91a6132e-4913-456b-8c86-ce6bf078940c,substation,ajg,kyushu_sub_314,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
@@ -337,14 +334,13 @@ e8bf97be-ba03-48ac-83fc-70575f4eb402,substation,ajg,kyushu_sub_40@220,ajg-v1.6.0
 9c177e4e-843c-40d0-9b98-0b6980851889,substation,ajg,hokuriku_sub_7@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 9c53fc49-0a4c-4182-935c-97b1f47bd7a2,substation,ajg,chubu_sub_98@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 9cd6af60-d69b-4993-941b-43f63d5ca333,substation,ajg,chubu_sub_108@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-9ce90719-818f-4043-8545-46ad9ccf56d1,substation,ajg,tokyo_sub_32@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
+9ce90719-818f-4043-8545-46ad9ccf56d1,substation,ajg,tokyo_sub_331,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; replaces adjacent 長谷 node; previous=tokyo_sub_32@154
 9d366755-ab6b-44ea-8f67-c9ccc6464704,substation,ajg,tokyo_sub_1343@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 9e2a03af-4926-43e6-bab5-e4bc7c0b2737,substation,ajg,shikoku_sub_32@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 9ebfe3cd-a644-4d62-823d-2a0883d38c94,substation,ajg,shikoku_sub_84@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 9ed391bc-89ed-450c-91ce-5b64b04beb3e,substation,ajg,kyushu_sub_3@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
-9f2e37e1-af45-4755-89d5-577990f7e008,substation,ajg,tokyo_sub_1772,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 a0c97fd7-22f7-40d0-9113-e1c8b78c16bc,substation,ajg,tokyo_sub_1382@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-a178f70b-a7a2-4a6c-8919-a6a2176395e8,substation,ajg,chubu_sub_126@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+a178f70b-a7a2-4a6c-8919-a6a2176395e8,substation,ajg,chubu_sub_245@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact 500kV raw operator layer plus source topology; previous=chubu_sub_126@500
 a184f8dd-4533-435a-a691-cf5dad185281,substation,ajg,tokyo_sub_404,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 a3026d39-bbd7-40c9-b6ea-ecaed80d1a23,substation,ajg,tokyo_sub_614@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 a36be9d9-da35-445a-8195-9bb73f948ca3,substation,ajg,tokyo_sub_1389@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -353,7 +349,7 @@ a3f7ebd7-e714-4bb9-a9a4-73848c944f34,substation,ajg,kyushu_sub_9@220,ajg-v1.6.0,
 a61241e5-7aa6-4e9f-9bb6-551ff6e52d4f,substation,ajg,tokyo_sub_606,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 a7ae08dc-821c-49c9-8537-70002e8c3223,substation,ajg,tokyo_sub_1705,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 a806ef56-6d79-4dc6-bf4b-bb85986c1136,substation,ajg,hokkaido_sub_172@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-a81cd9fe-287a-4c1c-99c1-134db27ecad7,substation,ajg,chubu_sub_2,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+a81cd9fe-287a-4c1c-99c1-134db27ecad7,substation,ajg,chubu_sub_81,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; excludes adjacent 下黒川 node; previous=chubu_sub_2
 a82f9389-32ae-47a2-8af3-c11b8d070499,substation,ajg,tokyo_sub_117@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 a83a4415-58a6-4780-b000-efc7fe6fcf74,substation,ajg,kyushu_sub_98@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 a855e2ac-6d01-41f3-842a-608981ed9794,substation,ajg,kyushu_sub_76@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
@@ -366,7 +362,7 @@ aaf95c05-3483-4eb0-b037-004a0e4ca01a,substation,ajg,shikoku_sub_31@500,ajg-v1.6.
 ac39fb2f-1984-4214-99cd-49041584ed2e,substation,ajg,tohoku_sub_168,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 ac541969-fdfe-47dc-a246-07bdb937691f,substation,ajg,tohoku_sub_838@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 ac5b61af-24d2-406f-8f8b-b07ab417a159,substation,ajg,shikoku_sub_13@187,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-ace4d751-028f-425a-9355-988ed16f6f81,substation,ajg,tokyo_sub_1017@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+ace4d751-028f-425a-9355-988ed16f6f81,substation,ajg,tokyo_sub_1017@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 275kV layer; previous=tokyo_sub_1017@500
 adc6d09d-04fd-4a5e-975b-82eff45aa07c,substation,ajg,hokuriku_sub_221@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 ae50aa9f-4a2b-4b8e-9512-f6086f41f330,substation,ajg,tokyo_sub_1044@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 aebde89d-524a-4265-ad59-bf4ceb552d73,substation,ajg,tohoku_sub_574@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -387,13 +383,12 @@ b44d4b94-800f-4ffd-af05-e2feae9f7590,substation,ajg,kyushu_sub_118@220,ajg-v1.6.
 b48d0da4-c110-4105-8cc7-2a733568e418,substation,ajg,tohoku_sub_193@154,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 b4b61766-1d9b-41f1-97a4-3a3771ef67a1,substation,ajg,tohoku_sub_799@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 b526a3b9-7961-43f8-93a4-76704b0a021e,substation,ajg,tohoku_sub_801@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-b5b26821-3824-46dc-b43a-54b144cbee0f,substation,ajg,tokyo_sub_714@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-b5e88418-c9c0-42a6-99f9-b6a2444987b7,substation,ajg,hokkaido_sub_269,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
-b62f6d15-a89f-4317-88b2-ae7b68e9ed46,substation,ajg,tohoku_sub_757@66,ajg-v1.6.0,name_t3_national,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
-b663360d-3890-4567-8592-ed51a1ed0e1e,substation,ajg,tohoku_sub_3,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+b5b26821-3824-46dc-b43a-54b144cbee0f,substation,ajg,tokyo_sub_714@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_714@500
+b5e88418-c9c0-42a6-99f9-b6a2444987b7,substation,ajg,hokkaido_sub_335@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 275kV layer; previous=hokkaido_sub_269
+b62f6d15-a89f-4317-88b2-ae7b68e9ed46,substation,ajg,chubu_sub_253@154,ajg-v1.6.0,name_t3_region,,inferred,2026-08-14,AJG audit 2026-08-14; exact same-region raw site and source 154kV layer; previous=tohoku_sub_757@66
+b663360d-3890-4567-8592-ed51a1ed0e1e,substation,ajg,tohoku_sub_24@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact raw name/operator site; source 154kV layer; previous=tohoku_sub_3
 b6cfe4ad-06f5-49ad-bf00-d5f6b3947302,substation,ajg,chubu_sub_39@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 b7413163-c359-4887-a876-c45ab56ab58f,substation,ajg,tohoku_sub_155@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-b793dcb3-4e92-4860-994e-6ed729a39669,substation,ajg,chugoku_sub_410,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 b7c9bbfe-12df-43b5-a347-b88d48a12546,substation,ajg,tokyo_sub_343@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 b92d213f-74f1-48c4-a403-9ddd7d261566,substation,ajg,tokyo_sub_686,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 b964ad8a-0e50-43c6-8baa-f0a912cf5523,substation,ajg,kyushu_sub_457,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
@@ -404,25 +399,24 @@ bad980e6-e8fc-4637-b7da-7a7b6dafbdf2,substation,ajg,hokkaido_sub_448@187,ajg-v1.
 bbcd2d96-3b26-4980-9158-3ab3e48bf160,substation,ajg,shikoku_sub_6@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 bcb5a1c3-05c3-4810-a24b-6e751a7b5352,substation,ajg,chubu_sub_80@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 becbdf6d-3957-4f8c-8050-911e1ecdb2b9,substation,ajg,chubu_sub_30,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-c0f9ccb9-b180-452e-afbc-cbaed1eeb730,substation,ajg,chubu_sub_624,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+c0f9ccb9-b180-452e-afbc-cbaed1eeb730,substation,ajg,chubu_sub_625,ajg-v1.6.0,name_t3_region,,inferred,2026-08-14,AJG audit 2026-08-14; exact raw name variant 朝日町; source 154kV has no AJG 154kV layer at this site; previous=chubu_sub_624
 c17a0313-9e11-4c9c-9333-1949859f1fa1,substation,ajg,tohoku_sub_70,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=0
 c1865ea3-7ecf-4331-85da-3393a1cf5dd3,substation,ajg,chubu_sub_457@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 c19cb168-4a16-4eea-9229-4b765d8bed55,substation,ajg,tohoku_sub_572@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 c252a629-eef1-4988-918a-37e9eb9fabe9,substation,ajg,tokyo_sub_1182,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-c2650c40-a1ee-4870-9546-c483578a0eb2,substation,ajg,kyushu_sub_10@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
+c2650c40-a1ee-4870-9546-c483578a0eb2,substation,ajg,kyushu_sub_10@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 220kV layer; previous=kyushu_sub_10@500
 c36121bf-044e-45db-8869-de1c3561c1cd,substation,ajg,tohoku_sub_449@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 c389ef35-e6fd-4720-9577-318d838dbecd,substation,ajg,kyushu_sub_78@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-c4fa51b8-fbdb-4b06-8964-032267af7ab4,substation,ajg,tokyo_sub_1368@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+c4fa51b8-fbdb-4b06-8964-032267af7ab4,substation,ajg,tokyo_sub_1368@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_1368@275
 c5b7f28c-f53a-442e-b727-d7a5625a121c,substation,ajg,tokyo_sub_1376@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-c71fd78d-5d22-4b60-a78e-6d7d7147d5f9,substation,ajg,tokyo_sub_266@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+c71fd78d-5d22-4b60-a78e-6d7d7147d5f9,substation,ajg,tokyo_sub_386,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; OSM raw name/operator site; excludes nearby railway traction site; previous=tokyo_sub_266@275
 c7fecadd-4a47-4a2e-8599-7271a0608e33,substation,ajg,tohoku_sub_141@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 c89b3adb-c3ad-4a40-b6c8-beb60102ed7f,substation,ajg,tokyo_sub_272@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 c9fbf84e-d811-43a2-8060-7d87b5b13897,substation,ajg,hokkaido_sub_16@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 ca25eddd-a6fa-4122-8438-e9cb3de7fc85,substation,ajg,tokyo_sub_815,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 ca27a0a7-6fbd-4df8-bdd3-6761a7c4c741,substation,ajg,tohoku_sub_36@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-caeb5e5b-20ef-49e9-a588-8df711952cfb,substation,ajg,kyushu_sub_250,ajg-v1.6.0,name_t1_national,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=110
 cbcbf289-0fbf-459a-9e09-15308bae5b69,substation,ajg,tokyo_sub_569@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-ccc2966f-7ca4-4ba5-90ec-632289b32ac8,substation,ajg,hokkaido_sub_180@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+ccc2966f-7ca4-4ba5-90ec-632289b32ac8,substation,ajg,hokkaido_sub_180@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 187kV layer; previous=hokkaido_sub_180@275
 cd1543e6-00d8-4b9b-8424-1abd36df3a31,substation,ajg,kyushu_sub_291@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
 cd3eb2da-4914-4f4b-ba89-d1f25d3c1d78,substation,ajg,hokkaido_sub_107,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
 cdc46764-3be0-4fc3-a4f4-93e5527ce2d0,substation,ajg,tokyo_sub_1677,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -460,7 +454,7 @@ dcfab5f1-ce77-4c01-b19c-507039ed7449,substation,ajg,chugoku_sub_38@187,ajg-v1.6.
 dd150df8-c1c2-47ac-8eea-66284d8fe704,substation,ajg,tohoku_sub_435@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 dd47bff0-b21b-41f8-9967-5050302a1216,substation,ajg,tokyo_sub_1672@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 ddc4608e-8b38-481b-ae39-1dd112dc51e9,substation,ajg,chubu_sub_514@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
-de1f836f-adf3-4cbb-8ba5-44e19bf149bf,substation,ajg,tokyo_sub_209,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+de1f836f-adf3-4cbb-8ba5-44e19bf149bf,substation,ajg,tokyo_sub_258@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; exact power-operator site; excludes nearby railway site; previous=tokyo_sub_209
 df7ef1e6-5602-4b97-8b7b-4d74c1b6ed40,substation,ajg,tokyo_sub_403,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 dfe13858-9d86-42cf-b56f-8b4d509ca735,substation,ajg,chubu_sub_115@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 dffdc0eb-b78a-47f0-bec2-3855c0cbf13b,substation,ajg,kyushu_sub_77@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
@@ -490,7 +484,7 @@ ea555041-72d7-46f4-b801-1467c4d5219b,substation,ajg,tokyo_sub_822,ajg-v1.6.0,nam
 eaa8e229-08f2-43bc-a451-c06435d70efb,substation,ajg,tokyo_sub_573,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
 eb72040f-22ad-4c77-aa93-1b32aa097180,substation,ajg,tokyo_sub_1425,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 eb95dcfa-e994-445e-9f31-d7e3f84b79d2,substation,ajg,tohoku_sub_219@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
-ebc41f12-4248-421c-b1fe-1c21abbc7f96,substation,ajg,tokyo_sub_1396@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+ebc41f12-4248-421c-b1fe-1c21abbc7f96,substation,ajg,tokyo_sub_1396@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_1396@275
 ebc8cc8c-6529-4b61-8c30-cb6b3553af5e,substation,ajg,chubu_sub_105@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 ebcbee1f-e9e2-4638-bb2d-70a9f7a2e3f6,substation,ajg,chubu_sub_57@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 ec3f9369-b318-42f8-9501-7f90590b3d0f,substation,ajg,hokkaido_sub_234@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=187
@@ -502,15 +496,15 @@ ed7194aa-26c8-4455-8440-10e2ccf32225,substation,ajg,tokyo_sub_1370@154,ajg-v1.6.
 ed852fbc-02e8-497e-8882-e83128f20795,substation,ajg,tokyo_sub_149@500,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=500
 f0489d18-a968-49dd-b082-9dd516b7e70d,substation,ajg,tohoku_sub_397@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 f129dc40-fa78-47a4-a50a-9f48702f1b37,substation,ajg,kyushu_sub_61@220,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=220
-f13b5986-d49f-4bde-97d4-76bb32ec475f,substation,ajg,tokyo_sub_566@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+f13b5986-d49f-4bde-97d4-76bb32ec475f,substation,ajg,tokyo_sub_566@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tokyo_sub_566@275
 f1d8d6cc-73c0-4c82-b682-f6484916e685,substation,ajg,tohoku_sub_8@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 f1f89bc4-37f2-4d61-b31f-9bedd159fe32,substation,ajg,tohoku_sub_577@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 f25e122c-9483-47b2-a882-680f43020aac,substation,ajg,tohoku_sub_137@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
 f339760c-0f43-48a6-9774-3a2eef4e4545,substation,ajg,tokyo_sub_124,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 f39958db-536b-4795-87cc-58608e9f5a11,substation,ajg,chubu_sub_146@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-f3a431f9-d9f7-4d9a-ad1c-c8583d423bf7,substation,ajg,tohoku_sub_211@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
+f3a431f9-d9f7-4d9a-ad1c-c8583d423bf7,substation,ajg,tohoku_sub_211@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=tohoku_sub_211@275
 f3ab562c-2316-45ad-bc0a-2ddd17f9e2d3,substation,ajg,tohoku_sub_258@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=275
-f3b5ae5c-8141-406a-9b13-fc476ce18145,substation,ajg,chubu_sub_68,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=66
+f3b5ae5c-8141-406a-9b13-fc476ce18145,substation,ajg,chubu_sub_161@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-14,AJG audit 2026-08-14; same site; source 154kV layer; previous=chubu_sub_68
 f4c5a497-c6c2-4778-b435-97c8d602444b,substation,ajg,tokyo_sub_1027@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 f4d82001-e37d-4611-ad0a-3376636823b9,substation,ajg,chubu_sub_823,ajg-v1.6.0,name_t3_region,,inferred,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
 f56c0500-757b-456c-b8c0-dfb01cddcbe3,substation,ajg,tohoku_sub_267@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-04,crosscheck_ajg 2026-08-04; ajg_kv=154
@@ -556,7 +550,6 @@ db17419e-08f7-4a80-ac32-c772e7f7b100,substation,ajg,kansai_sub_517@154,ajg-v1.6.
 def6fad1-a85a-45bb-aeb5-a831f2a59c5f,substation,ajg,kansai_sub_311@500,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →能勢変電所; conf=medium; pos 6.65km; kv500=AJG max kv; conn 2/3; margin -0.72km; 原 target_id=kansai_sub_311@275|kansai_sub_311@500（多電圧層の連結を、我方の電圧層に合わせて代表 1 件に畳んだ）
 c7886323-c801-4fdf-bedc-b86bd1e77380,substation,ajg,kansai_sub_19@500,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →信貴変電所; conf=medium; pos 3.68km; kv500=AJG max kv; conn 1/5; margin 99.0km; 原 target_id=kansai_sub_19@154|kansai_sub_19@500（多電圧層の連結を、我方の電圧層に合わせて代表 1 件に畳んだ）
 b9cd99a8-ce45-471e-b261-4661225d1acc,substation,ajg,kansai_sub_43,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →由良開閉所; conf=medium; pos 1.52km; kv500=AJG max kv; conn 0/1; margin 99.0km
-e767d27d-70a6-4540-9dfa-00f09fa40f11,substation,ajg,chubu_sub_231@275,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →犬山変電所; conf=strong; pos 7.28km; kv275=AJG max kv; conn 1/2; margin -2.58km; 原 target_id=chubu_sub_231@154|chubu_sub_231@275|chubu_sub_231@77|chubu_sub_231@u（多電圧層の連結を、我方の電圧層に合わせて代表 1 件に畳んだ）
 eda080c6-8edb-4060-af87-f4dfbd8d1793,substation,ajg,kansai_sub_13,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →紀北変換所; conf=medium; pos 1.07km; kv500=AJG max kv; conn 0/2; margin 99.0km
 ca7c2e91-e867-4205-8bab-b146f98679e0,substation,ajg,kansai_sub_630,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →東近江開閉所; conf=strong; pos 2.25km; kv500=AJG max kv; conn 2/3; margin 0.0km
 8a5bfccb-b254-4129-be0e-10fc61885f79,substation,ajg,kansai_sub_320,ajg-v1.6.0,deanon,,inferred,2026-08-05,deanon/kansai 2026-08-05; →京北開閉所; conf=medium; pos 5.03km; kv500=AJG max kv; conn 2/3; margin 99.0km
@@ -633,7 +626,7 @@ cfab3170-038e-43a4-9e32-0e9f19dc2665,substation,ajg,okinawa_sub_45@132,ajg-v1.6.
 39bf750b-1f8b-4a72-917a-368e247331d4,substation,ajg,okinawa_sub_36,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →与勝変電所; conf=medium; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→与勝変電所; アフィン推算位置から0.17km, 次点+5.23km, AJG名=川田変電所(OSM住所由来名); 拓撲一致0/2; 官No出典=con_re"
 1080144d-2342-41b3-9461-49dbbc5b94ab,substation,ajg,okinawa_sub_37,ajg-v1.6.0,affine,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →宇堅変電所; conf=medium; 官対照表に無し(開閉所等); アフィン推算位置から0.38km, 次点+2.48km, AJG名=宇堅変電所(OSM住所由来名); 拓撲一致1/1; 官No該当なし(開閉所等)"
 d45d1f2f-0303-4923-a8f0-091244403f6e,substation,ajg,okinawa_sub_19@132,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →栄野比変電所; conf=medium; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→栄野比変電所; アフィン推算位置から1.07km, 次点+1.74km, AJG名=うるま市変電所(OSM住所由来名); 拓撲一致2/7; 官No出典=con"
-2b97444e-c0db-4aca-8775-d619df08b06b,substation,ajg,okinawa_sub_27@66,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →石川変電所; conf=medium; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→石川変電所; アフィン推算位置から1.15km, 次点+-0.03km, AJG名=石川東山一丁目変電所(官名を含む); 拓撲一致1/3; 官No出典=con"
+2b97444e-c0db-4aca-8775-d619df08b06b,substation,ajg,okinawa_sub_27@132,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-14,AJG audit 2026-08-14; same site; source 132kV layer; previous=okinawa_sub_27@66
 ebca79da-c6fd-418e-aabe-970b2be11fd5,substation,ajg,okinawa_sub_42,ajg-v1.6.0,abbrev_table+ajg_name,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →喜瀬変電所; conf=strong; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→喜瀬変電所; アフィン推算位置から0.30km, 次点+5.75km, AJG名=喜瀬変電所(官名と一致); 拓撲一致1/2; 官No出典=con_res_m"
 df9885d0-d4ca-4bd0-832a-56d23e7f888f,substation,ajg,okinawa_sub_17,ajg-v1.6.0,abbrev_table+ajg_name,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →松田変電所; conf=strong; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→松田変電所; アフィン推算位置から0.06km, 次点+0.98km, AJG名=松田変電所(官名と一致); 拓撲一致0/2; 官No出典=con_res_m"
 4ca8749b-f342-4bd5-b885-8107c46b7fca,substation,ajg,okinawa_sub_13,ajg-v1.6.0,abbrev_table+ajg_name,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →辺野古変電所; conf=strong; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→辺野古変電所; アフィン推算位置から0.60km, 次点+2.65km, AJG名=Henoko Substation(官名と一致); 拓撲一致1/2; 官N"
@@ -645,17 +638,13 @@ caf88a31-607d-4747-8374-12d97786c130,substation,ajg,okinawa_sub_39,ajg-v1.6.0,ab
 a1ff0f3b-fb30-4506-ac54-d4de57a10f73,substation,ajg,okinawa_sub_35@66,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →大保変電所; conf=medium; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→大保変電所; アフィン推算位置から0.27km, 次点+8.69km, AJG名=田港変電所(OSM住所由来名); 拓撲一致0/1; 官No出典=con_re"
 81274a32-d725-4213-b35e-299e59d77570,substation,ajg,okinawa_sub_9,ajg-v1.6.0,abbrev_table+ajg_name,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →奥間変電所; conf=strong; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→奥間変電所; アフィン推算位置から0.74km, 次点+8.73km, AJG名=奥間変電所(官名と一致); 拓撲一致0/1; 官No出典=con_res_m"
 cc899451-2d10-49c3-bd5f-fa45e4990bea,substation,ajg,okinawa_sub_56,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-05,"deanon/okinawa 2026-08-05; →伊平変電所; conf=medium; 官略号対照表 con_res_map01_02/03.csv(2026年6月末)→伊平変電所; アフィン推算位置から0.21km, 次点+2.93km, AJG名=美浜三丁目変電所(OSM住所由来名); 拓撲一致0/1; 官No出典=con"
-187662fe-c1c1-4aa5-9eb6-4ad70ff9115b,substation,ajg,chubu_sub_1107@154,ajg-v1.6.0,name_t3_national,,inferred,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=154
-3030e115-4de1-4e84-a856-84de6bca8e3a,substation,ajg,tohoku_sub_202,ajg-v1.6.0,name_t1_region,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=66
 5e412308-6aa5-4bed-8ac0-89e28ceae1df,substation,ajg,chubu_sub_94@275,ajg-v1.6.0,name_t1_region,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=275
 7539d9fb-c96d-4086-9db6-fcf20194e0ea,substation,ajg,tohoku_sub_234@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=154
-a153d9d6-a133-4a16-8524-7c56952b6c9c,substation,ajg,kyushu_sub_308,ajg-v1.6.0,name_t3_national,,inferred,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=0
+a153d9d6-a133-4a16-8524-7c56952b6c9c,substation,ajg,okinawa_sub_26@132,ajg-v1.6.0,abbrev_table+affine,,inferred,2026-08-14,AJG audit 2026-08-14; official Okinawa code table + 132kV layer + neighbors 40/56; previous=kyushu_sub_308
 b0e97445-2f75-43e0-a651-fb7968bb2f6a,substation,ajg,tokyo_sub_1561,ajg-v1.6.0,name_t1_region,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=154
-bd44cc7e-b1bd-4a16-af02-825aacb78df7,substation,ajg,tokyo_sub_1646,ajg-v1.6.0,name_t1_national,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=66
 c52eb17e-9e5a-4b2e-8d29-dee79fa98b74,substation,ajg,tokyo_sub_108@154,ajg-v1.6.0,name_t1_region,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=154
 dc954863-054c-4875-9bfa-d0d4628348f2,substation,ajg,okinawa_sub_43,ajg-v1.6.0,name_t3_region,,inferred,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=66
 ed64d8d5-ef75-4b94-953b-ec65b76fac22,substation,ajg,shikoku_sub_27@187,ajg-v1.6.0,name_t1_region,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=187
-f4a85bb0-ad65-413b-9b6d-a1797cb884d8,substation,ajg,kyushu_sub_549,ajg-v1.6.0,name_t1_national,,extracted,2026-08-05,crosscheck_ajg 2026-08-04; ajg_kv=110
 8f0bc8dc-ad93-440c-9117-204d311bb3fe,substation,osm,way/152991099,overpass-2026-08-05,name_osm_upstream,,inferred,2026-08-05,OSM 上流を直接照会 2026-08-05; name=中東京変電所; voltage=275000;154000;66000
 2bf0bf5b-badc-4ae9-9b5b-61048efdda8a,substation,osm,way/882009006,overpass-2026-08-05,name_osm_upstream,,inferred,2026-08-05,OSM 上流を直接照会 2026-08-05; name=名栗変電所; voltage=154000
 8e8aa032-bee5-423e-8109-ff051a1a3919,substation,osm,way/159523372,overpass-2026-08-05,name_osm_upstream,,inferred,2026-08-05,OSM 上流を直接照会 2026-08-05; name=武蔵赤坂開閉所; voltage=154000
@@ -1108,4 +1097,3 @@ ce64ff2e-6bd2-4a07-9275-9f799887816a,substation,osm,way/721786411,overpass-2026-
 5eee2701-40fe-4abe-849f-86a60b61e7ae,substation,osm,way/116559939,overpass-2026-08-05,diagram_verified_osm,,inferred,2026-08-05,原図照合で確定 2026-08-05; →東栄変電所(中部電力パワーグリッド 站番号7); conf=medium; chuden-keitozu-tougou-unknown.pdf p1; osm_name=
 9d1e939c-738b-46ca-aef4-279a6bbe68d0,substation,osm,way/184886009,overpass-2026-08-05,diagram_verified_osm,,inferred,2026-08-05,原図照合で確定 2026-08-05; →川越変電所(中部電力パワーグリッド 站番号3610); conf=medium; chuden-keitozu-tougou-unknown.pdf p1; osm_name=
 15bc8926-ce1d-4619-8643-15fca1063117,substation,osm,way/179971423,overpass-2026-08-05,diagram_verified_osm,,inferred,2026-08-05,原図照合で確定 2026-08-05; →南九条変電所; conf=medium; hepco-keitozu-187kv-unknown.pdf p1; osm_name=
-0cc47ed1-d793-45b6-a5fe-2cd0e8074499,substation,osm,way/176075769,overpass-2026-08-05,diagram_verified_osm,,inferred,2026-08-05,原図照合で確定 2026-08-05; →秋田中央変電所; conf=medium; tohoku-keitozu-kikan-202402.pdf p1; osm_name=
